@@ -1,6 +1,7 @@
 <script setup lang="ts">
   import WeatherForecast from './components/WeatherForecast.vue';
   import EnergyForecast from './components/EnergyForecast.vue';
+  import TimeAndDate from './components/TimeAndDate.vue';
 </script>
 
 <template>
@@ -9,6 +10,7 @@
   <main>
     <WeatherForecast />
     <EnergyForecast />
+    <TimeAndDate />
   </main>
 </template>
 
